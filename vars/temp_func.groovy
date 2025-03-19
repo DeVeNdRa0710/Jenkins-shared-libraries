@@ -1,3 +1,3 @@
-def temp_fun(){
+def call(){
   echo "Shred library connected"
 }
