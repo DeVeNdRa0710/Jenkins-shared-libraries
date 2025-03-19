@@ -1,6 +1,5 @@
-def code_clone(){
-  echo 'Start the the cloning of code'
+def call(String url, String branch){
   sh 'whoami'
-  git url: 'https://github.com/DeVeNdRa1910/django-notes-app.git', branch: 'main'
-  echo 'Cloning of the code is successfull'
+  git url: url, branch: branch
+  echo 'Code cloning successful'
 }
